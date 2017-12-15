@@ -34,6 +34,7 @@ class RouteCollector {
      * @param mixed  $handler
      */
     public function addRoute($httpMethod, $route, $handler) {
+        $handler = is_callable($handler)?$handler():$handler;
         $route = $this->currentGroupPrefix . $route;
         $routeDatas = $this->routeParser->parse($route);
         foreach ((array) $httpMethod as $method) {
