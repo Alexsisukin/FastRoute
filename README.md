@@ -13,7 +13,7 @@ To install with composer:
 composer require alexsisukin/fast-route
 ```
 
-Requires PHP 5.4 or newer.
+Requires PHP 5.6 or newer.
 
 Usage
 -----
