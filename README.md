@@ -10,7 +10,7 @@ Install
 To install with composer:
 
 ```sh
-composer require nikic/fast-route
+composer require alexsisukin/fast-route
 ```
 
 Requires PHP 5.4 or newer.
